@@ -66,39 +66,28 @@ The goals of this project is to:
 ### Dependecies 
 
 Install/import the following libraries for:
-- 
+- reading and manipulating data
   - *pandas*
   - *numpy*
+- data visualization
   - *matplotlib.pyplot* 
   - *seaborn* 
-# To tune model, get different metric scores, and split data
-from sklearn import metrics
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
-
-from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
-
-# To be used for data scaling and one hot encoding
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, OneHotEncoder, LabelEncoder
-
-# To impute missing values
-from sklearn.impute import SimpleImputer
-
-# Importing the Machine Learning models we require from Scikit-Learn
-from sklearn import tree;
-from sklearn.tree import DecisionTreeClassifier;
-from sklearn.ensemble import RandomForestClassifier;
-
-# To help with model building
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import (
-    BaggingRegressor,
-    RandomForestRegressor,
-    GradientBoostingRegressor,
-    AdaBoostRegressor,
-    StackingRegressor,
-)
-
-# Importing the other functions we may require from Scikit-Learn
+- model tuning, metric scores estimation, and data splitting
+  - metrics from sklearn
+  - r2_score, mean_squared_error, mean_absolute_error from sklearn.metrics
+  - train_test_split, StratifiedKFold, cross_val_score from sklearn.model_selection 
+- data scaling and one hot encoding
+  - StandardScaler, MinMaxScaler, OneHotEncoder, LabelEncoder from sklearn.preprocessing
+- imputing missing values
+  - SimpleImputer from sklearn.impute
+- Machine Learning models
+  - tree from sklearn
+  - DecisionTreeClassifier from sklearn.tree
+  - RandomForestClassifier from sklearn.ensemble
+- model building
+  - DecisionTreeRegressor from sklearn.tree
+  - BaggingRegressor, RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor, StackingRegressor, from from sklearn.ensemble
+- Importing the other functions we may require from Scikit-Learn
 from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV;
 from sklearn.metrics import recall_score, roc_curve, classification_report, confusion_matrix;
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder;
