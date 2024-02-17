@@ -88,14 +88,14 @@ Install/import the following libraries for:
   - DecisionTreeRegressor from sklearn.tree
   - BaggingRegressor, RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor, StackingRegressor, from from sklearn.ensemble
 - Importing the other functions we may require from Scikit-Learn
-from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV;
-from sklearn.metrics import recall_score, roc_curve, classification_report, confusion_matrix;
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder;
-from sklearn.compose import ColumnTransformer;
-from sklearn.impute import SimpleImputer;
-from sklearn.pipeline import Pipeline;
-from sklearn import metrics, model_selection;
+  - train_test_split, GridSearchCV, RandomizedSearchCV from sklearn.model_selection
+  - recall_score, roc_curve, classification_report, confusion_matrix from sklearn.metrics 
+  - StandardScaler, LabelEncoder, OneHotEncoder from sklearn.preprocessing
+  - ColumnTransformer from sklearn.compose
+  - SimpleImputer from sklearn.impute
+  - Pipeline from sklearn.pipeline
+  - metrics, model_selection from sklearn
 
 ### Using the code
 
-Please make sure to save the Jupyter Notebook (*.ipynb*) file and the ***foodhub_order.csv*** dataset in the same directory.
+Please make sure to save the Jupyter Notebook (*.ipynb*) file and the ***ExtraaLearn.csv*** dataset in the same directory.
